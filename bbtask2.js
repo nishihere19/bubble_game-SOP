@@ -414,8 +414,9 @@ if(col=="orangered"){
     }
     if(potion_count>0){
      if (mouseX >= W-100 && mouseX <= W-20 &&
-            mouseY >= H-100 && mouseY <= H-20) {
-         
+            mouseY >= im_y && mouseY <= im_y+80) {
+          im_y=30;      
+ 
          potion_count--;
          t1-=3;
      }
