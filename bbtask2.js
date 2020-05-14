@@ -381,8 +381,8 @@ if(col=="orangered"){
         }
         
     }
-    if (mouseX >= boost1_x && mouseX <= (boost1_x+60) &&
-            mouseY >= boost1_y && mouseY <= (boost1_y+60)) {
+    if (mouseX >= boost1_x && mouseX <= (boost1_x+80) &&
+            mouseY >= boost1_y && mouseY <= (boost1_y+80)) {
         boost_val=false;
         boost1_x=null;
         boost1_y=null;
