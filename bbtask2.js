@@ -64,8 +64,8 @@ var tm=0;
     var boost=new Image();
     var src="boost.png";
     boost.src=src;
-    var boost1_x=Math.random()*(W-50)+20;
-    var boost1_y=Math.random()*(H-50)+20;
+    var boost1_x=Math.random()*(W-100)+20;
+    var boost1_y=Math.random()*(H-100)+20;
     var cols=3;
     var rows=3;
     var boost_width=547;
@@ -249,7 +249,7 @@ function animate() {
             ctx.drawImage(image,im_x,im_y,80,80); 
         }
         if(boost_val==true){
-             ctx.drawImage(boost,boost_x,boost_y,width,height,boost1_x,boost1_y,60,60);
+             ctx.drawImage(boost,boost_x,boost_y,width,height,boost1_x,boost1_y,80,80);
         }
    
      ctx.fillStyle=col;
